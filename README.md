@@ -1,6 +1,6 @@
 # ubuntu-in-termux
 
-[![DISCORD](https://img.shields.io/badge/Chat-On%20Discord-738BD7.svg?style=for-the-badge)](https://discord.gg/Xaqkdeh)
+[![DISCORD](https://img.shields.io/badge/Chat-On%20Discord-734BD7.svg?style=for-the-badge)](https://discord.gg/Xaqkdeh)
 
 ## What is  This About?
 
@@ -29,7 +29,7 @@ This is a script that allows you to install Ubuntu in your termux application wi
 9. Run the script: `./ubuntu.sh -y`
 10. Now just start ubuntu: `./startubuntu.sh`
 
-### Ubuntu 22.4  magic installation  command;
+### Ubuntu 22.04  magic installation  command;
 
 ```
 echo "deb https://termux.mentality.rip/termux-main stable main" > $PREFIX/etc/apt/sources.list && cat $PREFIX/etc/apt/sources.list && pkg update -y && pkg install git wget curl proot tar -y && git clone https://github.com/ugoMusk/Onelr.git && cd Onelr && ./onelr && cd && git clone https://github.com/ugoMusk/ubuntu-in-termux.git && cd ubuntu-in-termux && chmod +x ubuntu.sh && ./ubuntu.sh && cat unminimize >> startubuntu.sh && ./startubuntu.sh && apt install man-db manpages -y
